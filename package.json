@@ -39,7 +39,8 @@
     "transformation"
   ],
   "scripts": {
-    "test": "node --harmony run-tests"
+    "test": "node --harmony run-tests",
+    "postinstall": "cd build && ./build.sh"
   },
   "bin": "./build/es5/ng-annotate",
   "author": "Olov Lassus <olov.lassus@gmail.com>",
